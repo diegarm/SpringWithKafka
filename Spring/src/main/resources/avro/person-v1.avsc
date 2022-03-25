@@ -1,0 +1,11 @@
+{
+     "type": "record",
+     "namespace": "br.SpringWithKafka.avro.person",
+     "name": "Person",
+     "version": "1",
+     "fields": [
+       { "name": "firstName", "type": "string", "doc": "First Name of Person" },
+       { "name": "lastName", "type": "string", "doc": "Last Name of Person" },
+       { "name": "fiscalNumber", "type": "string", "doc": "Fiscal Number of Person" }
+     ]
+}
